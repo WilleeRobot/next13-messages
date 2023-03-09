@@ -5,7 +5,10 @@ export default async function Home() {
   );
   const res = await data.json();
   return (
-    <main className="">
+    <main className="pd-20">
+      <h1 className="text-6xl mb-12 font-bold leading-normal">
+        Top Movies Today
+      </h1>
       <div className="grid gap-16 grid-cols-fluid">
         {res.results.map((movie) => (
           <Movie

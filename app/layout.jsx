@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "A test Messaging interface",
+  title: "Popular Movies Now",
   description: "Generated using latest NextJS",
 };
 
